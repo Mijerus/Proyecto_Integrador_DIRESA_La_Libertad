@@ -1,0 +1,16 @@
+# Datos sanitarios originales: no publicar
+DATASET/
+
+# Registros de ejecución y archivos temporales
+ETL_DIRESA/etl_log.txt
+__pycache__/
+*.pyc
+
+# Credenciales y configuraciones privadas
+.env
+.env.*
+!.env.example
+
+# Copias de seguridad y archivos temporales
+*.bak
+*.tmp
